@@ -1,10 +1,10 @@
-# ZMK Module Template
+# ZMK Module: Anduril Split Unibody Keyboard
 
-This repository contains a template for a ZMK module, as it would most frequently be used. 
+This repository contains a ZMK module.
 
 ## Usage
 
-Read through the **ZMK Module Creation** page for details on how to configure this template.
+This is work in progress, and not ready to be used
 
 ## More Info
 
