@@ -1,7 +1,7 @@
 # Delete all unused properties.
 
 # Give your module a name
-name: zmk-module-keyboard-narsil
+name: zmk-module-keyboard-anduril
 build:
   # List your dependencies
   depends:
