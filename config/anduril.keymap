@@ -36,11 +36,11 @@
             //                    | ESC  | SPACE| TAB  |    | ENTER |  BS  |  DEL  | 
 
             bindings = <
-&kp N1  &kp N2  &kp N3       &kp N4     &kp N5           &kp N6      &kp N7     &kp N8     &kp N9   &kp N0
-&kp Q   &kp W   &kp E        &kp R      &kp T            &kp Y       &kp U      &kp I      &kp O    &kp P
-&kp A   &kp S   &kp D        &kp F      &kp G            &kp H       &kp J      &kp K      &kp L    &kp SEMI
-&kp Z   &kp X   &kp C        &kp V      &kp B            &kp N       &kp M      &kp COMMA  &kp DOT  &kp FSLH
-        &mo 1   &lt 2 SPACE  &lt 3 TAB  &kp LC(LA(DEL))  &kp C_MUTE  &kp ENTER  &kp BSPC   &kp DEL
+&kp N1       &kp N2       &kp N3       &kp N4       &kp N5           &kp N6      &kp N7       &kp N8          &kp N9            &kp N0
+&kp Q        &kp W        &kp E        &kp R        &kp T            &kp Y       &kp U        &kp I           &kp O             &mt PRINTSCREEN P
+&mt LGUI A   &mt LALT S   &mt LCTRL D  &mt LSHFT F  &kp G            &kp H       &mt RSHFT J  &mt RCTRL K     &mt RALT L        &mt RGUI SINGLE_QUOTE
+&mt RC(Z) Z  &mt RC(X) X  &mt RC(C) C  &mt RC(V) V  &kp B            &kp N       &kp M        &mt SEMI COMMA  &mt LS(SEMI) DOT  &kp FSLH
+             &mo 1        &lt 2 SPACE  &lt 3 TAB    &kp LC(LA(DEL))  &kp C_MUTE  &kp ENTER    &kp BSPC        &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -102,6 +102,7 @@
 
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
-        };
     };
+};
+
 };
